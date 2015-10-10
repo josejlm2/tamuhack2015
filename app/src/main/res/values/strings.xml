@@ -5,6 +5,7 @@
     <string name="add_button_text">Add</string>
     <string name="mobile_services">Mobile Services </string>
     <string name="menu_refresh">Refresh</string>
-    <string name="checkbox_text">Item Text</string>
-    
+    <string name="checkbox_text">Event Name</string>
+    <string name="event_date_text">Event date</string>
+
 </resources>
