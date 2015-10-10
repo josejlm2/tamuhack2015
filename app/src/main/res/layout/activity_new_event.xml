@@ -1,6 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/LinearLayout1"
+    android:id="@+id/LinearLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -8,29 +8,30 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
-        android:background="#71BCFA"
-        android:padding="6dip" >
-
-        <TextView
-            android:id="@+id/textViewTitle"
-            android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:padding="6dip"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/textNewTitle"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="2dp"
-            android:layout_weight="0.12"
-            android:text="@string/mobile_services"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            android:layout_weight="1"
+            android:ems="20"
+            android:hint="@string/add_textbox_hint_title" />
 
         <ProgressBar
             android:id="@+id/loadingProgressBar"
             android:layout_width="28dp"
-            android:layout_height="28dp" />
+            android:layout_height="28dp"
+            android:gravity="right"/>
+
     </LinearLayout>
-    
-     <LinearLayout
-        android:layout_width="match_parent" 
-        android:layout_height="wrap_content" 
-        android:background="#71BCFA"
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:padding="6dip"  >
 
         <EditText
@@ -42,7 +43,7 @@
             android:hint="@string/add_textbox_hint_suggestion" >
 
             <requestFocus />
-       </EditText>
+        </EditText>
 
         <Button
             android:id="@+id/buttonAddToDo"
@@ -56,8 +57,8 @@
     <ListView
         android:id="@+id/listViewToDo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:listitem="@layout/row_list_to_do" 
+        android:layout_height="300dp"
+        tools:listitem="@layout/row_list_to_do"
         android:padding="6dip" >
 
     </ListView>
