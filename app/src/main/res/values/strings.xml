@@ -5,10 +5,14 @@
     <string name="add_button_text">Add</string>
     <string name="mobile_services">Mobile Services </string>
     <string name="menu_refresh">Refresh</string>
-    <string name="checkbox_text">Event Name</string>
+    <string name="event_title">Event Name</string>
     <string name="event_date_text">Event date</string>
     <string name="title_new_event">New Event</string>
     <string name="add_textbox_hint_suggestion">Add Suggestions</string>
     <string name="event_date_hint">Date</string>
+
+    <string name="invite_title">Event Name</string>
+    <string name="invite_creator">Event Creator</string>
+    <string name="invite_date">Event Date</string>
 
 </resources>
