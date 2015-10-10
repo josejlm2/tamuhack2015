@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="24dp"
+    android:paddingRight="48dp"
+    android:paddingTop="48dp" >
+
+    <TextView
+        android:id="@+id/invite_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="12dp"
+        android:text="@string/invite_title"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:id="@+id/invite_creator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/invite_creator" />
+
+        <TextView
+            android:id="@+id/invite_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/invite_date" />
+
+    </LinearLayout>
+
+</RelativeLayout>
